@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "fb46516e-2693-4314-9039-7d54825f0726",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "35"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "origin",
+						"value": "http://users.bugred.ru"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "cookie",
+						"value": "PHPSESSID=130a5b2e2c8702170e5ebd8bb75162a6"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "login=testmail%40mail.ru&password=1"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
